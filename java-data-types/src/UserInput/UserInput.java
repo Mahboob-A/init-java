@@ -1,4 +1,5 @@
 package UserInput;
+import java.util.Scanner;
 
 // 12/06/2025, Wednesday, 10.30 AM
 
@@ -6,6 +7,12 @@ package UserInput;
 public class UserInput {
     public static void main(String[] args) {
 
+        // Create an object of the Scanner class
+        Scanner scanner = new Scanner(System.in);
+
+        String name = scanner.nextLine();
+
+        System.out.println(name);
 
     }
 }
