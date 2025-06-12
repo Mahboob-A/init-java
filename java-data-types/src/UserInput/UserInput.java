@@ -10,9 +10,10 @@ public class UserInput {
         // Create an object of the Scanner class
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Please enter your name: ");
         String name = scanner.nextLine();
 
-        System.out.println(name);
+        System.out.println("Good morning: " + name);
 
     }
 }
