@@ -27,5 +27,6 @@ public class UserInput {
 
         System.out.println("The float value is: " + fltValue);
 
+
     }
 }
