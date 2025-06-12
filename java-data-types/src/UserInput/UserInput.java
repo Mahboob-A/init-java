@@ -15,5 +15,17 @@ public class UserInput {
 
         System.out.println("Good morning: " + name);
 
+        System.out.println("Please tell your age: ");
+
+        int age = scanner.nextInt();
+
+        System.out.println("Your age is: " + age);
+
+        System.out.println("Please enter floating value: ");
+
+        float fltValue = scanner.nextFloat();
+
+        System.out.println("The float value is: " + fltValue);
+
     }
 }
