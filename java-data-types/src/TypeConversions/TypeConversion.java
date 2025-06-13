@@ -13,7 +13,5 @@ public class TypeConversion {
         long myLong = (long) 4.5f;
         System.out.println(myLong);
 
-
-
     }
 }
