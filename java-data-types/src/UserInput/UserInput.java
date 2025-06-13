@@ -25,8 +25,6 @@ public class UserInput {
 
         float fltValue = scanner.nextFloat();
 
-
-
         System.out.println("The float value is: " + fltValue);
     }
 }
